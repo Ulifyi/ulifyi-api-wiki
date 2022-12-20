@@ -14,7 +14,7 @@ This list shows all services that can be requested by the connection API. The fi
 
 ## Schema of the link
 
-In the example are **3 Links**. This schema in the example can used in the API to add **3 blocks (Links)** to your account. If you want more add more of the blocks or if you went to change the text change the `text` on the block the same for the `URL`.
+In the example are **3 Links**. This schema in the example can used in the API to add **3 blocks (Links)** to your account. If you want to add more of the blocks or if you went to change the text change the text in the block the same for the URL.
 
 {% hint style="warning" %}
 **Important:** Ulifyi Free user can only use **5** of this blocks.
