@@ -10,7 +10,7 @@ description: Learn fast how the Ulifyi API works.
 
 ## How to start?
 
-The first your a need a user token. You need to call the login API to get a JWT token with the life time of **7 days**. In this token are the information's of the user. Like this:
+The first your a need a user token. You need to call the login API to get a **JWT token** with the life time of **7 days**. In this token are the information's of the user. Like this:
 
 ```json
 {
@@ -50,11 +50,10 @@ This API will get you a JWT token by entering username and password in the body 
 {% endswagger-response %}
 
 {% swagger-response status="400: Bad Request" description="API Error" %}
-```json
-{
-    "msg": "An error, report this on https://github.com/Ulifyi/Bug-Reports"
+<pre class="language-json"><code class="lang-json"><strong>{
+</strong>    "msg": "An error, report this on https://github.com/Ulifyi/Bug-Reports"
 }
-```
+</code></pre>
 {% endswagger-response %}
 
 {% swagger-response status="401: Unauthorized" description="Username or password is incorrect!" %}
@@ -70,7 +69,7 @@ This is the base of the Ulifyi Login. Now you have your token. But what can you 
 
 ## What can you do with the token?
 
-Now you have a token that will expire on 7 days. But what can you do with them? That's very easy. You can update you account or get data from your account with this API's.
+Now you have a token that will **expire on 7 days**. But what can you do with them? That's very easy. You can update you account or get data from your account with this API's.
 
 {% content-ref url="resources/users.md" %}
 [users.md](resources/users.md)
