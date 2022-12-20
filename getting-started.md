@@ -10,7 +10,7 @@ description: Learn fast how the Ulifyi API works.
 
 ## How to start?
 
-The first your a need a user token. You need to call the login API to get a **JWT token** with the life time of **7 days**. In this token are the information's of the user. Like this:
+First your a need a user token (JWT[^1]). For this you need to call the login API to get a [**JWT** ](#user-content-fn-2)[^2]with the life time of **7 days**. In this token are the information's of the user. This looks like this:
 
 ```json
 {
@@ -25,11 +25,17 @@ The first your a need a user token. You need to call the login API to get a **JW
 }
 ```
 
-with this information's the API knows who you are. But for an API call you need the JWT token. This will you get on this API.
+with this information's the API knows who you are. But for an API call you need the JWT[^3]. This will you get on this API.
 
 {% swagger method="post" path="/login" baseUrl="https://api.uli.fyi/api/v1" summary="Ulifyi API Login" %}
 {% swagger-description %}
-This API will get you a JWT token by entering username and password in the body of the request.
+This API will get you a 
+
+JWT
+
+[^4]
+
+ (access token) by entering username and password in the body of the request.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="username" type="String" required="true" %}
@@ -65,9 +71,7 @@ This API will get you a JWT token by entering username and password in the body 
 {% endswagger-response %}
 {% endswagger %}
 
-This is the base of the Ulifyi Login. Now you have your token. But what can you do with the token?
-
-## What can you do with the token?
+## What can you do with the JWT[^5] (Access Token)
 
 Now you have a token that will **expire on 7 days**. But what can you do with them? That's very easy. You can update you account or get data from your account with this API's.
 
@@ -75,3 +79,14 @@ Now you have a token that will **expire on 7 days**. But what can you do with th
 [users.md](resources/users.md)
 {% endcontent-ref %}
 
+
+
+[^1]: JSON Web Token
+
+[^2]: JSON Web Token
+
+[^3]: JSON Web Token
+
+[^4]: JSON Web Token
+
+[^5]: JSON Web Token

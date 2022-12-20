@@ -10,14 +10,14 @@ description: >-
 
 This list shows all services that can be requested by the connection API. The first column of the table is the service name, the second column of the table is the label how it names in the API.
 
-<table><thead><tr><th>Connection Service</th><th>Label (Name in API)</th><th data-hidden></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Discord</td><td>discord</td><td></td><td></td><td></td><td></td></tr><tr><td>Spotify</td><td>spotify</td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Connection Service</th><th>Label (Name in API)</th><th data-hidden></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="https://discord.com/">Discord</a></td><td>discord</td><td></td><td></td><td></td><td></td></tr><tr><td><a href="https://spotify.com/">Spotify</a></td><td>spotify</td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 ## Schema of the link
 
 In the example are **3 Links**. This schema in the example can used in the API to add **3 blocks (Links)** to your account. If you want to add more of the blocks or if you went to change the text change the text in the block the same for the URL.
 
 {% hint style="warning" %}
-**Important:** Ulifyi Free user can only use **5** of this blocks.
+**Important:** [Ulifyi Free](#user-content-fn-1)[^1] user can only use **5** of this blocks.
 {% endhint %}
 
 {% tabs %}
@@ -347,3 +347,5 @@ Bearer <your JWT token>
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+[^1]: Ulifyi Free user are the user that have an Ulifyi Account and uses not the Pro Version of Ulifyi.

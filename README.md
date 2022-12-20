@@ -2,7 +2,7 @@
 
 ## How the Ulifyi API works?&#x20;
 
-The Ulifyi API works very easy. The Ulifyi API based on a [Express JS](https://expressjs.com/en/starter/installing.html) Backend. So this means the API uses a basic HTTPS/REST API for general operations. Every user get's a [JWT (JSON Web Token)](https://jwt.io/introduction) after the login. This JWT is main point for all API's of Ulifyi. The API need the token to find the user.&#x20;
+The Ulifyi API works very easy. The Ulifyi API based on a [Express JS](https://expressjs.com/en/starter/installing.html) Backend. So this means the API is a basic HTTPS/REST API for general operations. Every user get's a [JWT (JSON Web Token)](https://jwt.io/introduction) after the login. This JWT is main point for all API's of Ulifyi. The API need the token to find the user.&#x20;
 
 ## Basic knowledge
 
